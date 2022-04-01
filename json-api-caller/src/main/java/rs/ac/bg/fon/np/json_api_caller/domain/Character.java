@@ -1,4 +1,4 @@
-package rs.ac.bg.fon.np.json_api_caller;
+package rs.ac.bg.fon.np.json_api_caller.domain;
 
 public class Character {
 
@@ -7,7 +7,7 @@ public class Character {
 	private String status;
 	private String species;
 	private String gender;
-
+	
 	public int getId() {
 		return id;
 	}
@@ -48,4 +48,11 @@ public class Character {
 		this.gender = gender;
 	}
 
+	@Override
+	public String toString() {
+		return "Character [id=" + id + ", name=" + name + ", status=" + status + ", species=" + species + ", gender="
+				+ gender + "]";
+	}
+
+	
 }
