@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Rick Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "gender": "Male"
+  },
+  {
+    "id": 2,
+    "name": "Aqua Rick",
+    "status": "unknown",
+    "species": "Humanoid",
+    "gender": "Male"
+  },
+  {
+    "id": 3,
+    "name": "Beth\u0027s Mytholog",
+    "status": "Dead",
+    "species": "Mythological Creature",
+    "gender": "Female"
+  }
+]

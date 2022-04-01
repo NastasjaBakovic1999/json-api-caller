@@ -8,6 +8,10 @@ public class Character {
 	private String species;
 	private String gender;
 	
+	public Character() {
+		
+	}
+	
 	public int getId() {
 		return id;
 	}
